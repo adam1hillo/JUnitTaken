@@ -16,4 +16,18 @@ class RechthoekTest {
     void deOmtrekVanEenRechthoekVan4Op5Is18() {
         assertThat(new Rechthoek(4, 5).getOmtrek()).isEqualTo(18);
     }
+
+    @Test
+    void rechthoekenMetHetzelfdeBreedteEnLengteZijnGelijk() {
+        assertThat(new Rechthoek(4,5)).isEqualTo(new Rechthoek(4,5));
+    }
+    @Test
+    void rechhoekenMetVerschillendeAfmetingenZijnVerschillend() {
+        assertThat(new Rechthoek(4, 5)).isNotEqualTo(new Rechthoek(3,5));
+    }
+    @Test
+    void deHashCodeVanGelijkeRechthoekkenIsGelijk() {
+        assertThat(new Rechthoek(4,5)).hasSameHashCodeAs(new Rechthoek(4,5));
+    }
 }
+

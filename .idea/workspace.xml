@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="BigDecimal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Veiling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/VeilingTest.java" afterDir="false" />
+    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="TDD inleiding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Rechthoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Rechthoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/taken/RechthoekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/RechthoekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/taken/VeilingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/VeilingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +43,13 @@
     "JUnit.ArtikelTest.executor": "Run",
     "JUnit.ArtikelTest.prijsPlusBtwZeroIsPrijs.executor": "Run",
     "JUnit.ArtikelTest.prijsPlusNegatiefBtwIsPrijs.executor": "Run",
+    "JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk.executor": "Run",
     "JUnit.RechthoekTest.executor": "Run",
     "JUnit.RechthoekTest.juisteOmtrek.executor": "Run",
     "JUnit.RechthoekTest.juisteOppervlakte.executor": "Run",
     "JUnit.RechthoekTest.oppervlakteEenKantZero.executor": "Run",
+    "JUnit.RechthoekTest.rechhoekkenMetVerschillendeLengtesZijnVerschillend.executor": "Run",
+    "JUnit.RechthoekTest.rechthoekkenMetHetzelfdeBreedteEnLengteZijnGelijk.executor": "Run",
     "JUnit.VeilingTest.executor": "Run",
     "JUnit.WoordTest.executor": "Run",
     "JUnit.WoordTest.isGeenPalindrom.executor": "Run",
@@ -70,54 +74,7 @@
       <recent name="be.vdab.taken" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VeilingTest">
-    <configuration name="ArtikelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taken" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.taken.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.ArtikelTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArtikelTest.prijsPlusBtwZeroIsPrijs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taken" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.taken.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.ArtikelTest" />
-      <option name="METHOD_NAME" value="prijsPlusBtwZeroIsPrijs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArtikelTest.prijsPlusNegatiefBtwIsPrijs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taken" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.taken.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.ArtikelTest" />
-      <option name="METHOD_NAME" value="prijsPlusNegatiefBtwIsPrijs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RechthoekTest">
     <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taken" />
       <extension name="coverage">
@@ -129,6 +86,54 @@
       <option name="PACKAGE_NAME" value="be.vdab.taken" />
       <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
+      <option name="METHOD_NAME" value="deHashCodeVanGelijkeRechthoekkenIsGelijk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.rechhoekkenMetVerschillendeLengtesZijnVerschillend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
+      <option name="METHOD_NAME" value="rechhoekkenMetVerschillendeLengtesZijnVerschillend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.rechthoekkenMetHetzelfdeBreedteEnLengteZijnGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
+      <option name="METHOD_NAME" value="rechthoekkenMetHetzelfdeBreedteEnLengteZijnGelijk" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VeilingTest" />
-        <item itemvalue="JUnit.ArtikelTest" />
-        <item itemvalue="JUnit.ArtikelTest.prijsPlusNegatiefBtwIsPrijs" />
-        <item itemvalue="JUnit.ArtikelTest.prijsPlusBtwZeroIsPrijs" />
         <item itemvalue="JUnit.RechthoekTest" />
+        <item itemvalue="JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk" />
+        <item itemvalue="JUnit.RechthoekTest.rechhoekkenMetVerschillendeLengtesZijnVerschillend" />
+        <item itemvalue="JUnit.RechthoekTest.rechthoekkenMetHetzelfdeBreedteEnLengteZijnGelijk" />
+        <item itemvalue="JUnit.VeilingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,13 +196,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710240398680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TDD inleiding">
+      <option name="closed" value="true" />
+      <created>1710246318716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710246318716</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Inleiding taken" />
     <MESSAGE value="BigDecimal" />
-    <option name="LAST_COMMIT_MESSAGE" value="BigDecimal" />
+    <MESSAGE value="TDD inleiding" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD inleiding" />
   </component>
 </project>
