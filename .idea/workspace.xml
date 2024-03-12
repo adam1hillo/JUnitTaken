@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="Inleiding taken">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Artikel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/ArtikelTest.java" afterDir="false" />
+    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="BigDecimal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Veiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/VeilingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,22 +46,31 @@
     "JUnit.RechthoekTest.juisteOmtrek.executor": "Run",
     "JUnit.RechthoekTest.juisteOppervlakte.executor": "Run",
     "JUnit.RechthoekTest.oppervlakteEenKantZero.executor": "Run",
+    "JUnit.VeilingTest.executor": "Run",
     "JUnit.WoordTest.executor": "Run",
     "JUnit.WoordTest.isGeenPalindrom.executor": "Run",
     "JUnit.WoordTest.woordIsEenPalindroom.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="be.vdab.taken" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.vdab.taken" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArtikelTest">
+  <component name="RunManager" selected="JUnit.VeilingTest">
     <configuration name="ArtikelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taken" />
       <extension name="coverage">
@@ -124,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechthoekTest.juisteOmtrek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VeilingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taken" />
       <extension name="coverage">
         <pattern>
@@ -133,20 +142,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
-      <option name="METHOD_NAME" value="juisteOmtrek" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.VeilingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VeilingTest" />
         <item itemvalue="JUnit.ArtikelTest" />
         <item itemvalue="JUnit.ArtikelTest.prijsPlusNegatiefBtwIsPrijs" />
         <item itemvalue="JUnit.ArtikelTest.prijsPlusBtwZeroIsPrijs" />
         <item itemvalue="JUnit.RechthoekTest" />
-        <item itemvalue="JUnit.RechthoekTest.juisteOmtrek" />
       </list>
     </recent_temporary>
   </component>
@@ -175,12 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710238201690</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BigDecimal">
+      <option name="closed" value="true" />
+      <created>1710240398680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710240398680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Inleiding taken" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inleiding taken" />
+    <MESSAGE value="BigDecimal" />
+    <option name="LAST_COMMIT_MESSAGE" value="BigDecimal" />
   </component>
 </project>
