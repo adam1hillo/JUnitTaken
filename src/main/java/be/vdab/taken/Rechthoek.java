@@ -7,6 +7,9 @@ class Rechthoek {
     private final int breedte;
 
     Rechthoek(int lengte, int breedte) {
+        if (breedte < 1 || lengte < breedte) {
+            throw new IllegalArgumentException();
+        }
         this.lengte = lengte;
         this.breedte = breedte;
     }
