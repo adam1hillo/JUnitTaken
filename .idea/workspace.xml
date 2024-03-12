@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Rechthoek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Woord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/RechthoekTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/WoordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,19 +32,120 @@
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2daBoCNrAJVenzfYWSNJaQJidTG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.RechthoekTest.oppervlakteEenKantZero.executor": "Run",
+    "JUnit.WoordTest.executor": "Run",
+    "JUnit.WoordTest.isGeenPalindrom.executor": "Run",
+    "JUnit.WoordTest.woordIsEenPalindroom.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="be.vdab.taken" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RechthoekTest">
+    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.juisteOmtrek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
+      <option name="METHOD_NAME" value="juisteOmtrek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.juisteOppervlakte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
+      <option name="METHOD_NAME" value="juisteOppervlakte" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.oppervlakteEenKantZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
+      <option name="METHOD_NAME" value="oppervlakteEenKantZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WoordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.WoordTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RechthoekTest" />
+        <item itemvalue="JUnit.RechthoekTest.juisteOmtrek" />
+        <item itemvalue="JUnit.RechthoekTest.juisteOppervlakte" />
+        <item itemvalue="JUnit.RechthoekTest.oppervlakteEenKantZero" />
+        <item itemvalue="JUnit.WoordTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +155,19 @@
       <option name="presentableId" value="Default" />
       <updated>1710236482789</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1710236529668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710236529668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
