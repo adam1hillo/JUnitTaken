@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Isbn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/IsbnTest.java" afterDir="false" />
+    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="Grenswaarden en extreme waarden">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/taken/IsbnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/IsbnTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +41,10 @@
     "JUnit.ArtikelTest.executor": "Run",
     "JUnit.ArtikelTest.prijsPlusBtwZeroIsPrijs.executor": "Run",
     "JUnit.ArtikelTest.prijsPlusNegatiefBtwIsPrijs.executor": "Run",
+    "JUnit.IsbnTest.eenNummerMet13CijfersMetCorrectControleGetal2.executor": "Run",
     "JUnit.IsbnTest.executor": "Run",
     "JUnit.IsbnTest.toStringGeeftNummerTerug.executor": "Run",
+    "JUnit.IsbnTest.verkeerdeNummers.executor": "Run",
     "JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk.executor": "Run",
     "JUnit.RechthoekTest.executor": "Run",
     "JUnit.RechthoekTest.juisteOmtrek.executor": "Run",
@@ -56,6 +56,7 @@
     "JUnit.WoordTest.executor": "Run",
     "JUnit.WoordTest.isGeenPalindrom.executor": "Run",
     "JUnit.WoordTest.woordIsEenPalindroom.executor": "Run",
+    "JUnit.be.vdab.taken in taken.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -77,7 +78,7 @@
       <recent name="be.vdab.taken" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IsbnTest">
+  <component name="RunManager" selected="JUnit.be.vdab.taken in taken">
     <configuration name="IsbnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taken" />
       <extension name="coverage">
@@ -89,6 +90,22 @@
       <option name="PACKAGE_NAME" value="be.vdab.taken" />
       <option name="MAIN_CLASS_NAME" value="be.vdab.taken.IsbnTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsbnTest.eenNummerMet13CijfersMetCorrectControleGetal2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.IsbnTest" />
+      <option name="METHOD_NAME" value="eenNummerMet13CijfersMetCorrectControleGetal2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,60 +126,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsbnTest.verkeerdeNummers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taken" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="be.vdab.taken.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taken" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
-      <option name="METHOD_NAME" value="deHashCodeVanGelijkeRechthoekkenIsGelijk" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.IsbnTest" />
+      <option name="METHOD_NAME" value="verkeerdeNummers(long)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechthoekTest.rechhoekkenMetVerschillendeLengtesZijnVerschillend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="be.vdab.taken in taken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taken" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="be.vdab.taken.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
-      <option name="METHOD_NAME" value="rechhoekkenMetVerschillendeLengtesZijnVerschillend" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.be.vdab.taken in taken" />
         <item itemvalue="JUnit.IsbnTest" />
+        <item itemvalue="JUnit.IsbnTest.verkeerdeNummers" />
+        <item itemvalue="JUnit.IsbnTest.eenNummerMet13CijfersMetCorrectControleGetal2" />
         <item itemvalue="JUnit.IsbnTest.toStringGeeftNummerTerug" />
-        <item itemvalue="JUnit.RechthoekTest" />
-        <item itemvalue="JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk" />
-        <item itemvalue="JUnit.RechthoekTest.rechhoekkenMetVerschillendeLengtesZijnVerschillend" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710251894068</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Grenswaarden en extreme waarden">
+      <option name="closed" value="true" />
+      <created>1710334357011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710334357011</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,6 +241,7 @@
     <MESSAGE value="TDD inleiding" />
     <MESSAGE value="equals(), hashCode()" />
     <MESSAGE value="Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
+    <MESSAGE value="Grenswaarden en extreme waarden" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grenswaarden en extreme waarden" />
   </component>
 </project>
