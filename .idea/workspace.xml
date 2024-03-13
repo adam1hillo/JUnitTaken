@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="equals(), hashCode()">
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Rechthoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Rechthoek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/taken/RechthoekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/RechthoekTest.java" afterDir="false" />
+    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="Exceptions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Isbn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/IsbnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,8 @@
     "JUnit.ArtikelTest.executor": "Run",
     "JUnit.ArtikelTest.prijsPlusBtwZeroIsPrijs.executor": "Run",
     "JUnit.ArtikelTest.prijsPlusNegatiefBtwIsPrijs.executor": "Run",
+    "JUnit.IsbnTest.executor": "Run",
+    "JUnit.IsbnTest.toStringGeeftNummerTerug.executor": "Run",
     "JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk.executor": "Run",
     "JUnit.RechthoekTest.executor": "Run",
     "JUnit.RechthoekTest.juisteOmtrek.executor": "Run",
@@ -66,18 +70,50 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="be.vdab.taken" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="be.vdab.taken" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RechthoekTest">
-    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IsbnTest">
+    <configuration name="IsbnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taken" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.IsbnTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsbnTest.toStringGeeftNummerTerug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.taken" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.IsbnTest" />
+      <option name="METHOD_NAME" value="toStringGeeftNummerTerug" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,7 +128,7 @@
       <module name="taken" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +144,7 @@
       <module name="taken" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.taken.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,44 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechthoekTest.rechthoekkenMetHetzelfdeBreedteEnLengteZijnGelijk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taken" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.taken.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.RechthoekTest" />
-      <option name="METHOD_NAME" value="rechthoekkenMetHetzelfdeBreedteEnLengteZijnGelijk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VeilingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taken" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.taken.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.taken" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.VeilingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsbnTest" />
+        <item itemvalue="JUnit.IsbnTest.toStringGeeftNummerTerug" />
         <item itemvalue="JUnit.RechthoekTest" />
         <item itemvalue="JUnit.RechthoekTest.deHashCodeVanGelijkeRechthoekkenIsGelijk" />
         <item itemvalue="JUnit.RechthoekTest.rechhoekkenMetVerschillendeLengtesZijnVerschillend" />
-        <item itemvalue="JUnit.RechthoekTest.rechthoekkenMetHetzelfdeBreedteEnLengteZijnGelijk" />
-        <item itemvalue="JUnit.VeilingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710248962124</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exceptions">
+      <option name="closed" value="true" />
+      <created>1710251894068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710251894068</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +232,7 @@
     <MESSAGE value="BigDecimal" />
     <MESSAGE value="TDD inleiding" />
     <MESSAGE value="equals(), hashCode()" />
-    <option name="LAST_COMMIT_MESSAGE" value="equals(), hashCode()" />
+    <MESSAGE value="Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
   </component>
 </project>
