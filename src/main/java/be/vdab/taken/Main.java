@@ -7,7 +7,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        String zin = scanner.next();
+        String zin = scanner.next("^zin\\d{2}\\w+$");
         System.out.println("1ste zin: " + zin);
         String zin2 = scanner.next();
         System.out.println("2de zin: " + zin2);
