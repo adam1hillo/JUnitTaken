@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="Stub">
+    <list default="true" id="2384e23a-f267-4fcb-bd5e-44eafb113586" name="Changes" comment="Mock">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/AbstractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/JdbcWoonplaatsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/TxtWoonplaatsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/WoonplaatsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/WoonplaatsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/taken/WoonplaatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/taken/WoonplaatsServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +23,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -248,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710422348733</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mock">
+      <option name="closed" value="true" />
+      <created>1710489021418</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710489021418</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +286,7 @@
     <MESSAGE value="Grenswaarden en extreme waarden" />
     <MESSAGE value="Dependency injection" />
     <MESSAGE value="Stub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stub" />
+    <MESSAGE value="Mock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mock" />
   </component>
 </project>
